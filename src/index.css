@@ -1,0 +1,41 @@
+.App{
+  
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+body{
+  margin: 0;
+}
+
+.quotes_item{
+  text-align: right;
+}
+.btn{
+  
+text-align: right;
+
+}
+.quotes{
+  background-color: white;
+  box-shadow: 0 0 20px #0005;
+  padding: 10px;
+  width: 400px;
+
+}
+.quotes_btn{
+height: 30px;
+aspect-ratio: 1;
+color: white;
+box-shadow: 1px 1px 10px #0005;
+cursor: pointer;
+border-radius: 50%;
+transition: box-shadow 200ms ease;
+}
+.quotes_btn:hover{
+  box-shadow: 0 0 5px;
+  transition: box-shadow 200ms ease;
+}
